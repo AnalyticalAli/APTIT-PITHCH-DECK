@@ -1,0 +1,54 @@
+# Premium Corporate Pitch Deck Web App
+
+This plan details the implementation of a modern, premium web-based pitch deck prototype for an offshore software development company. The visual style will be a hybrid of Stripe, Vercel, and Accenture—focusing on a dark luxury theme, minimal futuristic enterprise aesthetics, and technical sophistication.
+
+## User Review Required
+
+> [!IMPORTANT]
+> The target platform is an HTML/JS/CSS based web application that functions as an interactive presentation/pitch deck. Is it okay to build this as a standalone index.html/style.css project within the current directory, or do you prefer using a framework like Vite/Next.js? For maximum flexibility and as requested by the system prompts, I will use Vanilla CSS and a standard web setup unless you specify otherwise.
+
+> [!NOTE]
+> I will generate abstract network visuals, cloud infrastructure illustrations, and other graphics using my image generation tool. Since these will be AI-generated, they will follow the "subtle gradient glows" and "dark luxury" theme.
+
+## Proposed Changes
+
+We will create a multi-slide single-page web app (or a vertical scroll presentation) with reusable slide layouts.
+
+### Structure & Setup
+
+#### [NEW] [index.html](file:///c:/Users/Shaker/OneDrive/Desktop/APTITI%20PITCH%20DECk/index.html)
+The main structure of the pitch deck containing the semantic HTML for all slide components. It will use a slider or vertical scrolling mechanism to transition between sections.
+
+#### [NEW] [style.css](file:///c:/Users/Shaker/OneDrive/Desktop/APTITI%20PITCH%20DECk/style.css)
+The core design system containing:
+- CSS variables for deep navy/black backgrounds, electric blue accents, and white typography.
+- Utility classes for grid-based layouts, spacing (generous margins, high padding), and typography scales.
+- Glassmorphism effects and subtle gradient glow utilities.
+- Specific styles for each slide layout (Title, Service Showcase, Case Study, etc.).
+
+#### [NEW] [app.js](file:///c:/Users/Shaker/OneDrive/Desktop/APTITI%20PITCH%20DECk/app.js)
+Logic for slide transitions, micro-animations, and interactive elements.
+
+### Slide Layouts to Implement (in `index.html`)
+
+1. **Title Slide**: Clean, large bold typography (geometric sans-serif), electric blue accent glow, abstract network background.
+2. **Trust Metrics**: 3-card metric layout (referencing AI Metrics competitor) emphasizing large numbers and scale credibility.
+3. **Service Showcase**: Grid layout detailing technical services (e.g., Team Augmentation, Custom Software) using elegant modern technical iconography.
+4. **Technology Stack Visuals**: A visual representation of the tech stack using glowing icons or system architecture inspired patterns.
+5. **Process Timeline**: A linear or wavy path (referencing Normastroy competitor) showing the engineering workflow.
+6. **Case Study**: Split-screen layout (referencing Greener competitor) with technical metrics and data flow visuals.
+7. **Comparison Table**: Clean enterprise comparison against traditional models, using glassmorphism for rows and sharp section dividers.
+8. **CTA Closing Slide**: Minimalist contact and next steps slide aimed at enterprise decision-makers.
+
+### Generated Graphics
+
+I will use my image generation capabilities to create custom background patterns and technical illustrations tailored to the dark luxury theme.
+
+## Verification Plan
+
+### Automated Tests
+- No automated testing suite required for this visual prototype.
+
+### Manual Verification
+- Visual inspection of the HTML file in a local browser to ensure responsiveness, color accuracy, and premium aesthetic alignment.
+- Interaction check to verify slide transitions and micro-animations feel smooth and "Vercel-like".
